@@ -118,4 +118,4 @@ Pour le detail complet de l'architecture et l'arborescence des fichiers, veuille
 
 Mathieu Gosselin  
 Clement Laflamme  
-Francis Boisvert  
+Francis Boisvert
