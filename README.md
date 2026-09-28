@@ -1,6 +1,6 @@
 # 🎨 ColorPickle — Gestionnaire de Palettes de Couleurs
 
-> Application de bureau native permettant de créer, personnaliser, convertir et organiser des palettes de couleurs — construite avec **Tauri 2** et **Vue 3**.
+> Application de bureau native permettant de récupérer la couleur d'un pixel sur n'importe quel écran ainsi que créer, personnaliser, convertir et organiser des palettes de couleurs — construite avec **Tauri 2** et **Vue 3**.
 
 ![Tauri](https://img.shields.io/badge/Tauri-2.0-blue?logo=tauri)
 ![Vue 3](https://img.shields.io/badge/Vue.js-3-42b883?logo=vuedotjs&logoColor=white)
@@ -22,11 +22,15 @@
 
 ## ✨ Fonctionnalités
 
-- **Navigation à 3 vues** — Accueil (statistiques globales), Palettes (collection filtrable/recherchable), Utilitaires (conversion et sélection de couleurs interactive).
+- **Navigation à 3 vues** — Accueil, Palettes (collection filtrable/recherchable), Utilitaires (couleur complémentaires et triades).
 - **Color Picker** - Récupérer la couleur partout, sur n'importe quel écran en temps réel, puis l'afficher à l'accueil
-- **Création de palettes** — formulaire avec validation front-end (nom obligatoire) et messages d'erreur/succès dynamiques.
+- **Création de palettes** — formulaire et messages d'erreur/succès dynamiques.
 - **Gestion complète (CRUD)** — ajout, modification, suppression et filtrage en temps réel.
 - **Conversions automatiques** — HEX / RGB calculées à la volée.
+- **Export des données** — Bouton permettant d'exporter ses palettes en un seul clic.
+- **Persistance des données** — les palettes sont enregistrées dans un fichier JSON stocké dans le dossier `AppData` de l'utilisateur, et retrouvées automatiquement au prochain lancement.
+- **Sauvegarde sécuritaire** — les données sont d'abord écrites dans un fichier temporaire `.json.temp`, qui remplace ensuite le fichier principal. Une écriture interrompue (plantage, coupure de courant) ne corrompt donc pas les palettes existantes.
+- **Contraste automatique du texte** — la couleur du texte s'adapte à l'arrière-plan : noir sur une couleur claire, blanc sur une couleur foncée, pour une lisibilité maximale.
 
 <br>
 
@@ -46,16 +50,30 @@ _Conversion instantanée des valeurs RGB / HEX_
 
 ## 🛠️ Stack technique
 
-| Couche             | Technologie                               |
-| ------------------ | ----------------------------------------- |
-| Desktop            | Tauri 2 (backend Rust minimal)            |
-| Frontend           | Vue 3 (Composition API, `<script setup>`) |
-| Langage            | TypeScript                                |
-| Build              | Vite                                      |
-| Gestion de paquets | npm                                       |
-| Routage            | Vue Router                                |
+| Couche             | Technologie                                          |
+| ------------------ | ---------------------------------------------------- |
+| Desktop            | Tauri 2 (backend Rust minimal)                       |
+| Frontend           | Vue 3 (Composition API, `<script setup>`)            |
+| Langage            | TypeScript                                           |
+| Build              | Vite                                                 |
+| Gestion de paquets | npm                                                  |
+| Routage            | Vue Router                                           |
+| Persistance        | Fichier JSON dans `AppData` (écriture via `.json.temp`) |
 
 > **Pourquoi TypeScript ?** Le projet utilise un typage strict des structures de données (`Palette`, `Couleur`) afin d'éviter les erreurs de conversion au runtime.
+
+<br>
+
+## 💾 Persistance et sauvegarde
+
+Les palettes sont conservées entre les sessions dans un fichier JSON situé dans le dossier `AppData` de l'utilisateur.
+
+Pour éviter toute perte de données, la sauvegarde se fait en deux temps :
+
+1. Les données sont écrites dans un fichier temporaire `.json.temp`.
+2. Une fois l'écriture terminée avec succès, ce fichier remplace le fichier JSON principal.
+
+Si l'application se ferme en pleine écriture, le fichier principal reste intact.
 
 <br>
 
@@ -86,7 +104,7 @@ Pour le détail complet de l'architecture et de l'arborescence des fichiers, voi
 
 ## 📚 Contexte du projet
 
-Réalisé dans le cadre du travail pratique #2 (TP2) du cours _Développement d'application (bureau)_, présenté à Mme Lilia Ould Hocine — AEC en Développement Web / Programmation, Collège de Maisonneuve.
+Réalisé dans le cadre du travail pratique #3 (TP3) du cours _Développement d'application (bureau)_, présenté à Mme Lilia Ould Hocine — AEC en Développement d'Application, Collège de Maisonneuve.
 
 <br>
 
