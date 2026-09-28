@@ -1,6 +1,7 @@
-# Structure de l'Architecture Actuelle (remise TP2)
+# Structure de l'Architecture Actuelle (remise TP3)
 
 ## Stack Technique
+
 - Framework Desktop : Tauri
 - Framework Frontend : Vue.js 3
 - Backend : Rust
@@ -10,6 +11,7 @@
 
 ## Structure des Fichiers
 
+```text
 ├── .gitignore
 ├── architecture-application.md
 ├── index.html
@@ -61,7 +63,7 @@
     │   └── schemas/
     ├── icons/
     ├── src/
-    │   ├── palettes/               //palettes sert de dossier modeles
+    │   ├── palettes/               // palettes sert de dossier modèles
     │   │   ├── couleur.rs
     │   │   ├── mod.rs
     │   │   ├── palette.rs
@@ -75,3 +77,4 @@
     ├── Cargo.lock
     ├── Cargo.toml
     └── tauri.conf.json
+```
