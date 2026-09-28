@@ -1,0 +1,432 @@
+[
+  {
+    "id": "1e5c26b8-80f4-4b52-b88d-e6b772bca501",
+    "nom": "Coucher de Soleil",
+    "createdAt": "2026-09-22T10:00:00",
+    "couleurs": [
+      {
+        "id": "a1b2c3d4-0001-4000-8000-000000000001",
+        "nom": "Jaune Doré",
+        "valeurRouge": 255,
+        "valeurVert": 209,
+        "valeurBleu": 102,
+        "codeHex": "#FFD166",
+        "createdAt": "2026-09-22T10:00:00"
+      },
+      {
+        "id": "a1b2c3d4-0001-4000-8000-000000000002",
+        "nom": "Orange Corail",
+        "valeurRouge": 247,
+        "valeurVert": 140,
+        "valeurBleu": 107,
+        "codeHex": "#F78C6B",
+        "createdAt": "2026-09-22T10:00:00"
+      },
+      {
+        "id": "a1b2c3d4-0001-4000-8000-000000000003",
+        "nom": "Rose Crépuscule",
+        "valeurRouge": 239,
+        "valeurVert": 71,
+        "valeurBleu": 111,
+        "codeHex": "#EF476F",
+        "createdAt": "2026-09-22T10:00:00"
+      },
+      {
+        "id": "a1b2c3d4-0001-4000-8000-000000000004",
+        "nom": "Violet Nuit",
+        "valeurRouge": 84,
+        "valeurVert": 13,
+        "valeurBleu": 110,
+        "codeHex": "#540D6E",
+        "createdAt": "2026-09-22T10:00:00"
+      }
+    ]
+  },
+  {
+    "id": "2f6d37c9-91f5-4c63-b99e-f7c883cdb602",
+    "nom": "Océan Profond",
+    "createdAt": "2026-09-22T10:05:00",
+    "couleurs": [
+      {
+        "id": "a1b2c3d4-0002-4000-8000-000000000001",
+        "nom": "Écume Claire",
+        "valeurRouge": 224,
+        "valeurVert": 251,
+        "valeurBleu": 252,
+        "codeHex": "#E0FBFC",
+        "createdAt": "2026-09-22T10:05:00"
+      },
+      {
+        "id": "a1b2c3d4-0002-4000-8000-000000000002",
+        "nom": "Bleu Glacier",
+        "valeurRouge": 152,
+        "valeurVert": 193,
+        "valeurBleu": 217,
+        "codeHex": "#98C1D9",
+        "createdAt": "2026-09-22T10:05:00"
+      },
+      {
+        "id": "a1b2c3d4-0002-4000-8000-000000000003",
+        "nom": "Bleu Marine",
+        "valeurRouge": 61,
+        "valeurVert": 90,
+        "valeurBleu": 128,
+        "codeHex": "#3D5A80",
+        "createdAt": "2026-09-22T10:05:00"
+      },
+      {
+        "id": "a1b2c3d4-0002-4000-8000-000000000004",
+        "nom": "Abysse Sombre",
+        "valeurRouge": 19,
+        "valeurVert": 42,
+        "valeurBleu": 62,
+        "codeHex": "#132A3E",
+        "createdAt": "2026-09-22T10:05:00"
+      }
+    ]
+  },
+  {
+    "id": "3a7e48da-02a6-4d74-ca0f-08d994dec703",
+    "nom": "Forêt Boréale",
+    "createdAt": "2026-09-22T10:10:00",
+    "couleurs": [
+      {
+        "id": "a1b2c3d4-0003-4000-8000-000000000001",
+        "nom": "Vert Sauge",
+        "valeurRouge": 163,
+        "valeurVert": 177,
+        "valeurBleu": 138,
+        "codeHex": "#A3B18A",
+        "createdAt": "2026-09-22T10:10:00"
+      },
+      {
+        "id": "a1b2c3d4-0003-4000-8000-000000000002",
+        "nom": "Vert Mousse",
+        "valeurRouge": 88,
+        "valeurVert": 129,
+        "valeurBleu": 87,
+        "codeHex": "#588157",
+        "createdAt": "2026-09-22T10:10:00"
+      },
+      {
+        "id": "a1b2c3d4-0003-4000-8000-000000000003",
+        "nom": "Vert Épinette",
+        "valeurRouge": 58,
+        "valeurVert": 90,
+        "valeurBleu": 64,
+        "codeHex": "#3A5A40",
+        "createdAt": "2026-09-22T10:10:00"
+      },
+      {
+        "id": "a1b2c3d4-0003-4000-8000-000000000004",
+        "nom": "Écorce Sombre",
+        "valeurRouge": 52,
+        "valeurVert": 78,
+        "valeurBleu": 65,
+        "codeHex": "#344E41",
+        "createdAt": "2026-09-22T10:10:00"
+      }
+    ]
+  },
+  {
+    "id": "4b8f59eb-13b7-4e85-db1a-19ea05efd804",
+    "nom": "Café & Crème",
+    "createdAt": "2026-09-22T10:15:00",
+    "couleurs": [
+      {
+        "id": "a1b2c3d4-0004-4000-8000-000000000001",
+        "nom": "Lait Chaud",
+        "valeurRouge": 243,
+        "valeurVert": 233,
+        "valeurBleu": 220,
+        "codeHex": "#F3E9DC",
+        "createdAt": "2026-09-22T10:15:00"
+      },
+      {
+        "id": "a1b2c3d4-0004-4000-8000-000000000002",
+        "nom": "Caramel",
+        "valeurRouge": 212,
+        "valeurVert": 163,
+        "valeurBleu": 115,
+        "codeHex": "#D4A373",
+        "createdAt": "2026-09-22T10:15:00"
+      },
+      {
+        "id": "a1b2c3d4-0004-4000-8000-000000000003",
+        "nom": "Moka",
+        "valeurRouge": 169,
+        "valeurVert": 132,
+        "valeurBleu": 103,
+        "codeHex": "#A98467",
+        "createdAt": "2026-09-22T10:15:00"
+      },
+      {
+        "id": "a1b2c3d4-0004-4000-8000-000000000004",
+        "nom": "Espresso",
+        "valeurRouge": 107,
+        "valeurVert": 79,
+        "valeurBleu": 79,
+        "codeHex": "#6B4F4F",
+        "createdAt": "2026-09-22T10:15:00"
+      }
+    ]
+  },
+  {
+    "id": "5c906afc-24c8-4f96-ec2b-2afb16fee905",
+    "nom": "Synthwave 80s",
+    "createdAt": "2026-09-22T10:20:00",
+    "couleurs": [
+      {
+        "id": "a1b2c3d4-0005-4000-8000-000000000001",
+        "nom": "Rose Néon",
+        "valeurRouge": 255,
+        "valeurVert": 0,
+        "valeurBleu": 127,
+        "codeHex": "#FF007F",
+        "createdAt": "2026-09-22T10:20:00"
+      },
+      {
+        "id": "a1b2c3d4-0005-4000-8000-000000000002",
+        "nom": "Violet Laser",
+        "valeurRouge": 157,
+        "valeurVert": 0,
+        "valeurBleu": 255,
+        "codeHex": "#9D00FF",
+        "createdAt": "2026-09-22T10:20:00"
+      },
+      {
+        "id": "a1b2c3d4-0005-4000-8000-000000000003",
+        "nom": "Bleu Cyan",
+        "valeurRouge": 0,
+        "valeurVert": 245,
+        "valeurBleu": 255,
+        "codeHex": "#00F5FF",
+        "createdAt": "2026-09-22T10:20:00"
+      },
+      {
+        "id": "a1b2c3d4-0005-4000-8000-000000000004",
+        "nom": "Noir Arcade",
+        "valeurRouge": 20,
+        "valeurVert": 13,
+        "valeurBleu": 36,
+        "codeHex": "#140D24",
+        "createdAt": "2026-09-22T10:20:00"
+      }
+    ]
+  },
+  {
+    "id": "6da17b0d-35d9-40a7-fd3c-3bac270ff006",
+    "nom": "Douceur Pastel",
+    "createdAt": "2026-09-22T10:25:00",
+    "couleurs": [
+      {
+        "id": "a1b2c3d4-0006-4000-8000-000000000001",
+        "nom": "Pêche Pâle",
+        "valeurRouge": 255,
+        "valeurVert": 200,
+        "valeurBleu": 221,
+        "codeHex": "#FFC8DD",
+        "createdAt": "2026-09-22T10:25:00"
+      },
+      {
+        "id": "a1b2c3d4-0006-4000-8000-000000000002",
+        "nom": "Lilas Poudré",
+        "valeurRouge": 205,
+        "valeurVert": 180,
+        "valeurBleu": 219,
+        "codeHex": "#CDB4DB",
+        "createdAt": "2026-09-22T10:25:00"
+      },
+      {
+        "id": "a1b2c3d4-0006-4000-8000-000000000003",
+        "nom": "Bleu Ciel",
+        "valeurRouge": 189,
+        "valeurVert": 224,
+        "valeurBleu": 254,
+        "codeHex": "#BDE0FE",
+        "createdAt": "2026-09-22T10:25:00"
+      },
+      {
+        "id": "a1b2c3d4-0006-4000-8000-000000000004",
+        "nom": "Lavande Claire",
+        "valeurRouge": 162,
+        "valeurVert": 210,
+        "valeurBleu": 255,
+        "codeHex": "#A2D2FF",
+        "createdAt": "2026-09-22T10:25:00"
+      }
+    ]
+  },
+  {
+    "id": "7eb28c1e-46ea-41b8-0e4d-4cbd38100107",
+    "nom": "Terre Brûlée",
+    "createdAt": "2026-09-22T10:30:00",
+    "couleurs": [
+      {
+        "id": "a1b2c3d4-0007-4000-8000-000000000001",
+        "nom": "Sable Chaud",
+        "valeurRouge": 227,
+        "valeurVert": 208,
+        "valeurBleu": 172,
+        "codeHex": "#E3D0AC",
+        "createdAt": "2026-09-22T10:30:00"
+      },
+      {
+        "id": "a1b2c3d4-0007-4000-8000-000000000002",
+        "nom": "Ocre Jaune",
+        "valeurRouge": 206,
+        "valeurVert": 139,
+        "valeurBleu": 83,
+        "codeHex": "#CE8B53",
+        "createdAt": "2026-09-22T10:30:00"
+      },
+      {
+        "id": "a1b2c3d4-0007-4000-8000-000000000003",
+        "nom": "Terre Cuite",
+        "valeurRouge": 186,
+        "valeurVert": 73,
+        "valeurBleu": 52,
+        "codeHex": "#BA4934",
+        "createdAt": "2026-09-22T10:30:00"
+      },
+      {
+        "id": "a1b2c3d4-0007-4000-8000-000000000004",
+        "nom": "Rouille",
+        "valeurRouge": 119,
+        "valeurVert": 44,
+        "valeurBleu": 34,
+        "codeHex": "#772C22",
+        "createdAt": "2026-09-22T10:30:00"
+      }
+    ]
+  },
+  {
+    "id": "8fc39d2f-57fb-42c9-1f5e-5dce49211208",
+    "nom": "Cyberpunk",
+    "createdAt": "2026-09-22T10:35:00",
+    "couleurs": [
+      {
+        "id": "a1b2c3d4-0008-4000-8000-000000000001",
+        "nom": "Jaune Cyber",
+        "valeurRouge": 254,
+        "valeurVert": 231,
+        "valeurBleu": 21,
+        "codeHex": "#FEE715",
+        "createdAt": "2026-09-22T10:35:00"
+      },
+      {
+        "id": "a1b2c3d4-0008-4000-8000-000000000002",
+        "nom": "Rouge Électrique",
+        "valeurRouge": 255,
+        "valeurVert": 0,
+        "valeurBleu": 60,
+        "codeHex": "#FF003C",
+        "createdAt": "2026-09-22T10:35:00"
+      },
+      {
+        "id": "a1b2c3d4-0008-4000-8000-000000000003",
+        "nom": "Matrice Cyan",
+        "valeurRouge": 0,
+        "valeurVert": 230,
+        "valeurBleu": 255,
+        "codeHex": "#00E6FF",
+        "createdAt": "2026-09-22T10:35:00"
+      },
+      {
+        "id": "a1b2c3d4-0008-4000-8000-000000000004",
+        "nom": "Gris Carbone",
+        "valeurRouge": 26,
+        "valeurVert": 26,
+        "valeurBleu": 29,
+        "codeHex": "#1A1A1D",
+        "createdAt": "2026-09-22T10:35:00"
+      }
+    ]
+  },
+  {
+    "id": "90d4ae30-680c-43da-206f-6edf5a322309",
+    "nom": "Minimaliste Nordique",
+    "createdAt": "2026-09-22T10:40:00",
+    "couleurs": [
+      {
+        "id": "a1b2c3d4-0009-4000-8000-000000000001",
+        "nom": "Blanc Craie",
+        "valeurRouge": 248,
+        "valeurVert": 249,
+        "valeurBleu": 250,
+        "codeHex": "#F8F9FA",
+        "createdAt": "2026-09-22T10:40:00"
+      },
+      {
+        "id": "a1b2c3d4-0009-4000-8000-000000000002",
+        "nom": "Gris Brume",
+        "valeurRouge": 206,
+        "valeurVert": 212,
+        "valeurBleu": 218,
+        "codeHex": "#CED4DA",
+        "createdAt": "2026-09-22T10:40:00"
+      },
+      {
+        "id": "a1b2c3d4-0009-4000-8000-000000000003",
+        "nom": "Ardoise",
+        "valeurRouge": 108,
+        "valeurVert": 117,
+        "valeurBleu": 125,
+        "codeHex": "#6C757D",
+        "createdAt": "2026-09-22T10:40:00"
+      },
+      {
+        "id": "a1b2c3d4-0009-4000-8000-000000000004",
+        "nom": "Fjord Nuit",
+        "valeurRouge": 33,
+        "valeurVert": 37,
+        "valeurBleu": 41,
+        "codeHex": "#212529",
+        "createdAt": "2026-09-22T10:40:00"
+      }
+    ]
+  },
+  {
+    "id": "a1e5bf41-791d-44eb-3170-7fe06b433410",
+    "nom": "Baies Rouges",
+    "createdAt": "2026-09-22T10:45:00",
+    "couleurs": [
+      {
+        "id": "a1b2c3d4-0010-4000-8000-000000000001",
+        "nom": "Framboise",
+        "valeurRouge": 184,
+        "valeurVert": 13,
+        "valeurBleu": 87,
+        "codeHex": "#B80D57",
+        "createdAt": "2026-09-22T10:45:00"
+      },
+      {
+        "id": "a1b2c3d4-0010-4000-8000-000000000002",
+        "nom": "Mûre",
+        "valeurRouge": 112,
+        "valeurVert": 12,
+        "valeurBleu": 70,
+        "codeHex": "#700C46",
+        "createdAt": "2026-09-22T10:45:00"
+      },
+      {
+        "id": "a1b2c3d4-0010-4000-8000-000000000003",
+        "nom": "Cassis",
+        "valeurRouge": 74,
+        "valeurVert": 11,
+        "valeurBleu": 61,
+        "codeHex": "#4A0B3D",
+        "createdAt": "2026-09-22T10:45:00"
+      },
+      {
+        "id": "a1b2c3d4-0010-4000-8000-000000000004",
+        "nom": "Groseille",
+        "valeurRouge": 226,
+        "valeurVert": 56,
+        "valeurBleu": 119,
+        "codeHex": "#E23877",
+        "createdAt": "2026-09-22T10:45:00"
+      }
+    ]
+  }
+]

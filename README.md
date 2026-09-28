@@ -14,7 +14,7 @@
 
 ## 📸 Aperçu
 
-| Accueil                               | Palettes                                | Utilitaires                                   | 
+| Accueil                               | Palettes                                | Utilitaires                                   |
 | ------------------------------------- | --------------------------------------- | --------------------------------------------- |
 | ![Accueil](./screenshots/accueil.png) | ![Palettes](./screenshots/palettes.png) | ![Utilitaires](./screenshots/utilitaires.png) |
 

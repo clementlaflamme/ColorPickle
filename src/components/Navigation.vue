@@ -4,18 +4,34 @@ import { useMessage } from "../composables/useMessage";
 import { useInputMain } from "../composables/useInputMain";
 import useColorPicker from "../composables/useColorPicker";
 import { useRoute } from "vue-router";
+import { invoke } from "@tauri-apps/api/core";
+import { save } from "@tauri-apps/plugin-dialog";
+
 
 
 const { champRecherche } = useInputMain();
-
-
-// const { recupererCouleurPick } = useInputMain();
+const { afficherMessage } = useMessage();
 
 const { estFonce, r, g, b } = useInputMain();
 const route = useRoute();
 const { ouvrirColorPicker } = useColorPicker();
 
-const messageSauvegarde = "Données sauvegardées!";
+async function exporterDonnees() {
+  try {
+    const chemin = await save({
+      defaultPath: "palettes.json",
+      filters: [{name: "JSON", extensions: ["json"]}],
+    });
+    if (!chemin) return;
+
+    await invoke<void>("exporter_donnees", {cheminDestination: chemin});
+    afficherMessage("Palettes exportées!");
+  } catch (error) {
+    console.error(error);
+    afficherMessage("Erreur lors de l'export.", true);
+  }
+}
+
 </script>
 
 <template>
@@ -74,7 +90,7 @@ const messageSauvegarde = "Données sauvegardées!";
             </RouterLink>
 
             <button
-              @click="useMessage().afficherMessage(messageSauvegarde)"
+              @click="exporterDonnees"
               class="flex bg-black/20 cursor-pointer rounded-3xl w-18 h-12 justify-center items-center mx-2 hover:border-4 hover:border-solid hover:border-black/10"
               :style="{
                 backgroundColor: estFonce(r, g, b)
@@ -107,13 +123,18 @@ const messageSauvegarde = "Données sauvegardées!";
               </div>
             </RouterLink>
           </div>
-          <div class="mt-3 flex justify-center">
+          <div class="mt-3 flex justify-center ">
             <input 
             type="text"
             v-if="route.name === 'palettes'"
             v-model="champRecherche"
-            placeholder="Recherche Palette"
-            class="border mt-2 text-center rounded-lg"
+            placeholder="Chercher une couleur"
+            class="border mt-2 text-center rounded-lg min-w-80 text-center p-1"
+            :style="{
+                  color: estFonce(r, g, b)
+                    ? 'rgba(256,256,256)'
+                    : 'rgba(0,0,0)',
+                }"
             />
           </div>
         </div>
